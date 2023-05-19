@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+    font-family: 'Poppins',sans-serif;
+   /*  outline: 1px solid red; */
+}
+
+body{
+    background-image: url(coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+}
+
+/* Logo: Coffee */
+
+.logo{
+    color: #fff;
+    display: flex;
+    font-size: 30px;
+    padding-right: 500px;
+}
+
+/* Header part */
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5%;
+}
+
+/* Navigation */
+
+.navs{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navs a{
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff; 
+    height: 40px;
+    width: 100px;
+    padding-top: 7px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.navs a:hover{
+    transition: 0.5s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 1, 1);
+}
+
+/* Page content */
+
+.mainpage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 240px;   /* reset */
+}
+
+/* left */
+
+.details{
+    margin-bottom: 50px;
+}
+
+.details .contenthead{
+    color: #fff;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.details p{
+    margin-top: 10px;
+    color: #fff;
+}
+
+.details button{
+    margin-top: 20px;
+    width: 25%;
+    height: 5vh;
+    border-radius: 30px;
+    color: #fff;
+    background: transparent;
+    border: 0.5px solid #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.details button:hover{
+    transition: 0.5s;
+    background: #fff;
+    color:rgb(66, 11, 11);
+}
+
+
+/* rigth */
+
+.login{
+    width: 400px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
+
+.memberlogin{
+    font-size:30px ;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.inputbox{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.inputbox input{
+    height: 5.5vh;
+    width: 100%;
+    background: transparent;
+    border: 0.5px solid #fff;
+    border-radius: 30px;
+    padding-left: 60px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.inputbox input::placeholder{
+    color:#fff;
+}
+
+.inputbox input:focus{
+    background: transparent;
+}
+
+.envelope i{
+    position: fixed;
+    color: #fff;
+    font-size: 17px;
+    width: 60px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 0px 0px 30px;
+    
+}
+
+.lock i{
+    position: fixed;
+    color: #fff;
+    font-size: 17px;
+    width: 60px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 0px 0px 30px;
+}
+
+
+/* Remember me & Forgot Password */
+
+.remfor{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    color: #fff;
+}
+
+
+.forgot a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.forgot a:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+/* Login button */
+
+.but button{
+    margin-top: 15px;
+    width: 100%;
+    height: 5.5vh;
+    border-radius:30px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    background: linear-gradient(to right,rgb(44, 7, 7),rgb(162, 76, 76));
+    border: none;
+}
+
+.but button:hover{
+    background: linear-gradient(to right,rgb(162, 76, 76),rgb(44, 7, 7));
+}
+
+/* signup */
+
+.signup{
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.signup a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.signup a:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+/* creator details */
+
+/* .creator i{
+    color: #fff;
+    font-size: large;
+} */
